@@ -1,0 +1,31 @@
+---
+title: "T4 - PCA"
+output: html_document
+date: '2024-10-02'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## PCA en R
+
+En este ejemplo, tambien veremos PCA en la base de datos de Arrestos de EEUU, pero en R.
+
+### Cargamos la base de datos
+
+```{r USArrest}
+library("ISLR")
+states=row.names(USArrests)
+states
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
